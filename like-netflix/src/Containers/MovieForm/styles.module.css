@@ -1,0 +1,207 @@
+.container {
+  width: 100%;
+  height: calc(100% - 70px);
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background: rgba(35, 35, 35, 0.918051);
+  opacity: 0.89;
+  backdrop-filter: blur(24.4645px);
+  position: absolute;
+  z-index: -1;
+}
+
+.formContainer {
+  width: 976px;
+  height: 917px;
+  z-index: 1;
+  margin-top: 175px;
+  background: #232323;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1), 0px 2px 10px rgba(0, 0, 0, 0.07), 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 10px 50px rgba(0, 0, 0, 0.05);
+}
+
+.cross {
+  color: #ffffff;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  position: relative;
+  top: 20px;
+  left: 930px;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 300;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin: 40px 0 0 60px;
+  text-align: left;
+}
+
+.form {
+  height: 700px;
+  margin: 40px 60px 60px;
+  position: relative;
+}
+
+.formField {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.inputCol1 {
+  width: 525px;
+}
+
+.inputCol2 {
+  width: 301px;
+}
+
+.btnsContainer {
+  width: 377px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.btnsContainer > button {
+  font-family: 'Montserrat', sans-serif;
+  width: 179px;
+  height: 54px;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 1.5px solid #F65261;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reset {
+  color: #F65261;
+  background: none;
+}
+
+.submit {
+  color: #ffffff;
+  background: #F65261;
+}
+
+.success {
+  width: 686px;
+  height: 322px;
+  background: #232323;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1), 0px 2px 10px rgba(0, 0, 0, 0.07), 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 10px 50px rgba(0, 0, 0, 0.05);
+  margin-top: 123px;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.success > h1 {
+  font-weight: 300;
+  font-size: 40px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 31px 0 29px;
+}
+
+.success > p {
+  width: 302px;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+}
+
+.delete {
+  width: 686px;
+  height: 322px;
+  background: #232323;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1), 0px 2px 10px rgba(0, 0, 0, 0.07), 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 10px 50px rgba(0, 0, 0, 0.05);
+  margin-top: 123px;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 63px 0 0 82px;
+}
+
+.delete > h1 {
+  font-weight: 300;
+  font-size: 40px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 0 37px 0;
+}
+
+.delete > p {
+  width: 436px;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+}
+
+.redBtn {
+  width: 180px;
+  height: 57px;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #F65261;
+  border-radius: 4px;
+  border: 0px;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  bottom: -70px;
+  left: 430px;
+}
+
+.cross2 {
+  color: #ffffff;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  position: relative;
+  top: -20px;
+  left: 315px;
+  cursor: pointer;
+}
+
+.cross3 {
+  color: #ffffff;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  position: relative;
+  top: -40px;
+  left: 635px;
+  cursor: pointer;
+}

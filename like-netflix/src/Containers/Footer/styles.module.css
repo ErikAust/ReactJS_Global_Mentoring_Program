@@ -1,0 +1,17 @@
+.footerBlock {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #424242;
+}
+
+.title {
+  color: #F65261;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.title > span {
+  font-weight: 500;
+}

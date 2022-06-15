@@ -1,0 +1,33 @@
+.input {
+  height: 90px;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.input label {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.888889px;
+  text-transform: uppercase;
+  color: #F65261;
+  opacity: 0.8;
+  text-align: left;
+  margin-bottom: 13px;
+}
+
+.input input {
+  font-family: 'Montserrat';
+  height: 57px;
+  font-weight: 400;
+  font-size: 20px;
+  background: rgba(50, 50, 50, 0.948044);
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 0 18px;
+  outline: none;
+}

@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  background-color: #555555;
+  position: relative;
+}
+
+.defaultWrapper {
+  height: 396px;
+  background: #000000;
+  background-image: url('./assets/Bitmap.png');
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  height: 590px;
+  margin-bottom: 10px;
+  background-color: #232323;
+}
+
+.inner {
+  margin: 0 60px 0 60px;
+}

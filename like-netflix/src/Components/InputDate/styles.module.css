@@ -1,0 +1,71 @@
+.date {
+  width: 301px;
+  height: 90px;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.date label {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.888889px;
+  text-transform: uppercase;
+  color: #F65261;
+  opacity: 0.8;
+  text-align: left;
+  margin-bottom: 13px;
+}
+
+.date > div {
+  height: 57px;
+  width: 100%;
+  border: none;
+  background: rgba(50, 50, 50, 0.948044);
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  border-radius: 4px;
+  box-sizing: content-box;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.value {
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.3;
+  margin: 16px 0 0 19px;
+}
+
+.valueChanged {
+  opacity: 1;
+}
+
+.date > div > input {
+  width: 10%;
+  height: 100%;
+  font-weight: 400;
+  font-size: 20px;
+  border: none;
+  background: 'yellow';
+  color: #ffffff;
+  outline: none;
+  position: absolute;
+  left: 255px;
+  bottom: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.calendar {
+  width: 24px;
+  height: 22px;
+  position: relative;
+  top: 18px;
+  right: 17px;
+}

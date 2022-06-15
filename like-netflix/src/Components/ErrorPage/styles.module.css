@@ -1,0 +1,34 @@
+.errorContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+
+.errorContainer > h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.errorContainer > p {
+  width: 80%;
+  font-size: 20px;
+  margin-bottom: 200px;
+}
+
+.homeBtn {
+  width: 180px;
+  height: 57px;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #F65261;
+  border-radius: 4px;
+  border: 0px;
+  cursor: pointer;
+}

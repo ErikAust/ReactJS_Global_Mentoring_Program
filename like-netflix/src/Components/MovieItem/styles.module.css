@@ -1,0 +1,100 @@
+.movieBlock {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 1.9%;
+  position: relative;
+}
+
+.poster {
+  width: 327px;
+  height: 464px;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.iconBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 285px;
+  top: 7px;
+  width: 37px;
+  height: 37px;
+  border: none;;
+  border-radius: 20px;
+  padding: 0;
+  background: none;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.contextBtn {
+  position: absolute;
+  left: 125px;
+  top: 10px;
+}
+
+.block {
+  width: 10px;
+  height: 20px;
+  background-color: #FFFFFF;
+  position: inherit;
+  z-index: 0;
+}
+
+.icon {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  fill: #2A202D;
+  z-index: 1;
+}
+
+.infoMovie {
+  width: 327px;
+  display: flex;
+  flex-direction: column;
+}
+
+.infoMovie > p {
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  margin-top: 0;
+  text-align: left;
+}
+
+.infoMovie > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.infoMovie > div > p {
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+  opacity: 0.7;
+  margin: 20px 0 8px 0;
+}
+
+.infoMovie > div > span {
+  width: 66px;
+  height: 26px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  border: 1px solid #979797;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 21px;
+}
